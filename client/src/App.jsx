@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Header />
-      <main>
+      <main className="h-screen">
         <h1>Welcome To JhimShop</h1>
       </main>
       <Footer />
