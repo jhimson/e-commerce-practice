@@ -1,10 +1,16 @@
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-4xl text-blue-500">Hello, USA!!!</h1>
-    </div>
+    <>
+      <Header />
+      <main>
+        <h1>Welcome To JhimShop</h1>
+      </main>
+      <Footer />
+    </>
   );
 }
 
