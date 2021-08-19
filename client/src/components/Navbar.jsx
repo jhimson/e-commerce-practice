@@ -16,7 +16,7 @@ const Navbar = () => {
               <div>
                 <a
                   href="#"
-                  className="flex items-center px-2 py-5 text-white hover:text-gray-900"
+                  className="flex items-center px-2 py-5 hover:text-gray-900"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ const Navbar = () => {
                       d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
                     />
                   </svg>
-                  <span className="font-bold">JhimShop</span>
+                  <span className="font-bold text-white">JhimShop</span>
                 </a>
               </div>
 
@@ -52,7 +52,7 @@ const Navbar = () => {
                 href="#"
                 className="flex items-center px-3 py-5 space-x-2 text-white"
               >
-                <GrCart color="red" size="1.5em" />
+                <GrCart size="1.5em" />
                 <span>Cart</span>
               </a>
               <a
@@ -63,7 +63,7 @@ const Navbar = () => {
               </a>
             </div>
             {/* mobile button goes here */}
-            <div className="flex items-center md:hidden">
+            <div className="flex items-center text-white md:hidden">
               <button
                 onClick={() => setMobileMenuIsVisible(!mobileMenuIsVisible)}
               >
@@ -94,15 +94,15 @@ const Navbar = () => {
         >
           <a
             href="#"
-            className="block px-4 py-2 mb-2 text-sm hover:bg-gray-200"
+            className="block px-4 py-2 mb-2 text-sm text-white hover:bg-gray-200"
           >
             Search
           </a>
           <a
             href="#"
-            className="flex px-4 py-2 mb-2 space-x-1 text-sm hover:bg-gray-200"
+            className="flex px-4 py-2 mb-2 space-x-1 text-sm text-white hover:bg-gray-200"
           >
-            <GrCart color="red" size="1.5em" />
+            <GrCart size="1.5em" />
             <span>Cart</span>
           </a>
           <a
